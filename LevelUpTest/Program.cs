@@ -15,7 +15,7 @@ namespace LevelUpTest
 
             Character Hades = new Character();
 
-            Hades.LevelUp();
+            Hades.GiveXP(40);
         }
 
 

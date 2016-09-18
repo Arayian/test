@@ -75,7 +75,15 @@ namespace LevelUpTest
 
         #region [ Methods ]
 
-        public void LevelUp()
+        public void GiveXP(int xp)
+        {
+            _currXP = _currXP + xp;
+
+            if (_currXP > _maxXP)
+                _levelUp();
+        }
+
+        private void _levelUp()
         {
             Random rand = new Random();
             int numOfStats;
@@ -90,6 +98,8 @@ namespace LevelUpTest
             //Determine number of stats to raise
             numOfStats = rand.Next(1, 4);
             StatUp(numOfStats);
+
+            //TODO: Determine new XP cap
         }
 
         public void StatUp(int number)
