@@ -8,8 +8,16 @@ namespace LevelUpTest
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            //This is a test for leveling up
+
+            Character Hades = new Character();
+
+            Hades.LevelUp();
         }
+
+
     }
 }
