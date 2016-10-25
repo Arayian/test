@@ -108,5 +108,13 @@ namespace LevelUpTest
         }
 
         #endregion
+
+        #region [ DEBUG ]
+
+        public void PrintStats()
+        {
+            Console.Write(_name + "Level " + _level + ". Stats: Dex - " + _dexterity + " Int - " + _intelligence + " Stam - " +_stamina + " Str - " + _strength)
+        }
+        #endregion
     }
 }
