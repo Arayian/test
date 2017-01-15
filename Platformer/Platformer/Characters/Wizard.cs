@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Platformer
 {
-    class Wizard
+    class Wizard : baseClass
     {
+        private string _name = "Clud";
+
     }
 }

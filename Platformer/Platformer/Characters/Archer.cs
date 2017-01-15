@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Platformer
 {
-    class Archer
+    class Archer : baseClass
     {
+        private string _name = "Roobin";
     }
 }
