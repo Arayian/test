@@ -35,24 +35,24 @@
             this.lbl_style = new System.Windows.Forms.Label();
             this.lbl_product = new System.Windows.Forms.Label();
             this.lbl_brand = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lbl_calories = new System.Windows.Forms.Label();
+            this.lbl_fatcal = new System.Windows.Forms.Label();
+            this.lbl_fat = new System.Windows.Forms.Label();
+            this.lbl_satfat = new System.Windows.Forms.Label();
+            this.lbl_transfat = new System.Windows.Forms.Label();
+            this.lbl_serving = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lbl_cholest = new System.Windows.Forms.Label();
+            this.lbl_sodium = new System.Windows.Forms.Label();
+            this.lbl_carbs = new System.Windows.Forms.Label();
+            this.lbl_fiber = new System.Windows.Forms.Label();
+            this.lbl_sugar = new System.Windows.Forms.Label();
+            this.lbl_protein = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
@@ -60,11 +60,11 @@
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.cb_gluten = new System.Windows.Forms.CheckBox();
-            this.cb_nitrate = new System.Windows.Forms.CheckBox();
             this.cb_lowsodium = new System.Windows.Forms.CheckBox();
+            this.cb_nitrate = new System.Windows.Forms.CheckBox();
+            this.cb_gluten = new System.Windows.Forms.CheckBox();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.gb_brand.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -107,7 +107,7 @@
             // lbl_style
             // 
             this.lbl_style.AutoSize = true;
-            this.lbl_style.Location = new System.Drawing.Point(13, 71);
+            this.lbl_style.Location = new System.Drawing.Point(27, 71);
             this.lbl_style.Name = "lbl_style";
             this.lbl_style.Size = new System.Drawing.Size(30, 13);
             this.lbl_style.TabIndex = 2;
@@ -125,65 +125,65 @@
             // lbl_brand
             // 
             this.lbl_brand.AutoSize = true;
-            this.lbl_brand.Location = new System.Drawing.Point(13, 17);
+            this.lbl_brand.Location = new System.Drawing.Point(22, 17);
             this.lbl_brand.Name = "lbl_brand";
             this.lbl_brand.Size = new System.Drawing.Size(35, 13);
             this.lbl_brand.TabIndex = 0;
             this.lbl_brand.Text = "Brand";
             // 
-            // label7
+            // lbl_calories
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(26, 120);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "label7";
+            this.lbl_calories.AutoSize = true;
+            this.lbl_calories.Location = new System.Drawing.Point(25, 146);
+            this.lbl_calories.Name = "lbl_calories";
+            this.lbl_calories.Size = new System.Drawing.Size(44, 13);
+            this.lbl_calories.TabIndex = 1;
+            this.lbl_calories.Text = "Calories";
             // 
-            // label8
+            // lbl_fatcal
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(26, 146);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "label8";
+            this.lbl_fatcal.AutoSize = true;
+            this.lbl_fatcal.Location = new System.Drawing.Point(29, 172);
+            this.lbl_fatcal.Name = "lbl_fatcal";
+            this.lbl_fatcal.Size = new System.Drawing.Size(40, 13);
+            this.lbl_fatcal.TabIndex = 2;
+            this.lbl_fatcal.Text = "Fat Cal";
             // 
-            // label9
+            // lbl_fat
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(26, 172);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "label9";
+            this.lbl_fat.AutoSize = true;
+            this.lbl_fat.Location = new System.Drawing.Point(47, 198);
+            this.lbl_fat.Name = "lbl_fat";
+            this.lbl_fat.Size = new System.Drawing.Size(22, 13);
+            this.lbl_fat.TabIndex = 3;
+            this.lbl_fat.Text = "Fat";
             // 
-            // label10
+            // lbl_satfat
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(26, 198);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "label10";
+            this.lbl_satfat.AutoSize = true;
+            this.lbl_satfat.Location = new System.Drawing.Point(28, 224);
+            this.lbl_satfat.Name = "lbl_satfat";
+            this.lbl_satfat.Size = new System.Drawing.Size(41, 13);
+            this.lbl_satfat.TabIndex = 4;
+            this.lbl_satfat.Text = "Sat Fat";
             // 
-            // label11
+            // lbl_transfat
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(26, 224);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "label11";
+            this.lbl_transfat.AutoSize = true;
+            this.lbl_transfat.Location = new System.Drawing.Point(17, 250);
+            this.lbl_transfat.Name = "lbl_transfat";
+            this.lbl_transfat.Size = new System.Drawing.Size(52, 13);
+            this.lbl_transfat.TabIndex = 5;
+            this.lbl_transfat.Text = "Trans Fat";
             // 
-            // label12
+            // lbl_serving
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(26, 250);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "label12";
+            this.lbl_serving.AutoSize = true;
+            this.lbl_serving.Location = new System.Drawing.Point(26, 120);
+            this.lbl_serving.Name = "lbl_serving";
+            this.lbl_serving.Size = new System.Drawing.Size(43, 13);
+            this.lbl_serving.TabIndex = 6;
+            this.lbl_serving.Text = "Serving";
             // 
             // textBox1
             // 
@@ -227,59 +227,59 @@
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 12;
             // 
-            // label13
+            // lbl_cholest
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(199, 120);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 13);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "label7";
+            this.lbl_cholest.AutoSize = true;
+            this.lbl_cholest.Location = new System.Drawing.Point(183, 119);
+            this.lbl_cholest.Name = "lbl_cholest";
+            this.lbl_cholest.Size = new System.Drawing.Size(59, 13);
+            this.lbl_cholest.TabIndex = 1;
+            this.lbl_cholest.Text = "Cholesterol";
             // 
-            // label14
+            // lbl_sodium
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(199, 146);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 13);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "label8";
+            this.lbl_sodium.AutoSize = true;
+            this.lbl_sodium.Location = new System.Drawing.Point(200, 146);
+            this.lbl_sodium.Name = "lbl_sodium";
+            this.lbl_sodium.Size = new System.Drawing.Size(42, 13);
+            this.lbl_sodium.TabIndex = 2;
+            this.lbl_sodium.Text = "Sodium";
             // 
-            // label15
+            // lbl_carbs
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(199, 172);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
-            this.label15.TabIndex = 3;
-            this.label15.Text = "label9";
+            this.lbl_carbs.AutoSize = true;
+            this.lbl_carbs.Location = new System.Drawing.Point(208, 172);
+            this.lbl_carbs.Name = "lbl_carbs";
+            this.lbl_carbs.Size = new System.Drawing.Size(34, 13);
+            this.lbl_carbs.TabIndex = 3;
+            this.lbl_carbs.Text = "Carbs";
             // 
-            // label16
+            // lbl_fiber
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(199, 198);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "label10";
+            this.lbl_fiber.AutoSize = true;
+            this.lbl_fiber.Location = new System.Drawing.Point(212, 198);
+            this.lbl_fiber.Name = "lbl_fiber";
+            this.lbl_fiber.Size = new System.Drawing.Size(30, 13);
+            this.lbl_fiber.TabIndex = 4;
+            this.lbl_fiber.Text = "Fiber";
             // 
-            // label17
+            // lbl_sugar
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(199, 224);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 5;
-            this.label17.Text = "label11";
+            this.lbl_sugar.AutoSize = true;
+            this.lbl_sugar.Location = new System.Drawing.Point(207, 224);
+            this.lbl_sugar.Name = "lbl_sugar";
+            this.lbl_sugar.Size = new System.Drawing.Size(35, 13);
+            this.lbl_sugar.TabIndex = 5;
+            this.lbl_sugar.Text = "Sugar";
             // 
-            // label18
+            // lbl_protein
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(199, 250);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "label12";
+            this.lbl_protein.AutoSize = true;
+            this.lbl_protein.Location = new System.Drawing.Point(202, 250);
+            this.lbl_protein.Name = "lbl_protein";
+            this.lbl_protein.Size = new System.Drawing.Size(40, 13);
+            this.lbl_protein.TabIndex = 6;
+            this.lbl_protein.Text = "Protein";
             // 
             // textBox10
             // 
@@ -334,33 +334,15 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // button1
+            // cb_lowsodium
             // 
-            this.button1.Location = new System.Drawing.Point(105, 275);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(187, 274);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // cb_gluten
-            // 
-            this.cb_gluten.AutoSize = true;
-            this.cb_gluten.Location = new System.Drawing.Point(16, 17);
-            this.cb_gluten.Name = "cb_gluten";
-            this.cb_gluten.Size = new System.Drawing.Size(81, 17);
-            this.cb_gluten.TabIndex = 3;
-            this.cb_gluten.Text = "Gluten Free";
-            this.cb_gluten.UseVisualStyleBackColor = true;
+            this.cb_lowsodium.AutoSize = true;
+            this.cb_lowsodium.Location = new System.Drawing.Point(16, 67);
+            this.cb_lowsodium.Name = "cb_lowsodium";
+            this.cb_lowsodium.Size = new System.Drawing.Size(84, 17);
+            this.cb_lowsodium.TabIndex = 5;
+            this.cb_lowsodium.Text = "Low Sodium";
+            this.cb_lowsodium.UseVisualStyleBackColor = true;
             // 
             // cb_nitrate
             // 
@@ -372,23 +354,41 @@
             this.cb_nitrate.Text = "Nitrate Free";
             this.cb_nitrate.UseVisualStyleBackColor = true;
             // 
-            // cb_lowsodium
+            // cb_gluten
             // 
-            this.cb_lowsodium.AutoSize = true;
-            this.cb_lowsodium.Location = new System.Drawing.Point(16, 67);
-            this.cb_lowsodium.Name = "cb_lowsodium";
-            this.cb_lowsodium.Size = new System.Drawing.Size(84, 17);
-            this.cb_lowsodium.TabIndex = 5;
-            this.cb_lowsodium.Text = "Low Sodium";
-            this.cb_lowsodium.UseVisualStyleBackColor = true;
+            this.cb_gluten.AutoSize = true;
+            this.cb_gluten.Location = new System.Drawing.Point(16, 17);
+            this.cb_gluten.Name = "cb_gluten";
+            this.cb_gluten.Size = new System.Drawing.Size(81, 17);
+            this.cb_gluten.TabIndex = 3;
+            this.cb_gluten.Text = "Gluten Free";
+            this.cb_gluten.UseVisualStyleBackColor = true;
+            // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(105, 275);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(75, 23);
+            this.btn_save.TabIndex = 13;
+            this.btn_save.Text = "Save";
+            this.btn_save.UseVisualStyleBackColor = true;
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.Location = new System.Drawing.Point(187, 274);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(75, 23);
+            this.btn_clear.TabIndex = 14;
+            this.btn_clear.Text = "Clear";
+            this.btn_clear.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 307);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_clear);
+            this.Controls.Add(this.btn_save);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox14);
@@ -401,18 +401,18 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lbl_protein);
+            this.Controls.Add(this.lbl_serving);
+            this.Controls.Add(this.lbl_sugar);
+            this.Controls.Add(this.lbl_transfat);
+            this.Controls.Add(this.lbl_fiber);
+            this.Controls.Add(this.lbl_satfat);
+            this.Controls.Add(this.lbl_carbs);
+            this.Controls.Add(this.lbl_fat);
+            this.Controls.Add(this.lbl_sodium);
+            this.Controls.Add(this.lbl_fatcal);
+            this.Controls.Add(this.lbl_cholest);
+            this.Controls.Add(this.lbl_calories);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gb_brand);
             this.Name = "Form1";
@@ -435,24 +435,24 @@
         private System.Windows.Forms.Label lbl_style;
         private System.Windows.Forms.Label lbl_product;
         private System.Windows.Forms.Label lbl_brand;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lbl_calories;
+        private System.Windows.Forms.Label lbl_fatcal;
+        private System.Windows.Forms.Label lbl_fat;
+        private System.Windows.Forms.Label lbl_satfat;
+        private System.Windows.Forms.Label lbl_transfat;
+        private System.Windows.Forms.Label lbl_serving;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lbl_cholest;
+        private System.Windows.Forms.Label lbl_sodium;
+        private System.Windows.Forms.Label lbl_carbs;
+        private System.Windows.Forms.Label lbl_fiber;
+        private System.Windows.Forms.Label lbl_sugar;
+        private System.Windows.Forms.Label lbl_protein;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
@@ -460,8 +460,8 @@
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.CheckBox cb_lowsodium;
         private System.Windows.Forms.CheckBox cb_nitrate;
         private System.Windows.Forms.CheckBox cb_gluten;
