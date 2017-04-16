@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SPI
 {
-    public partial class Form1 : Form
+    public partial class SPI : Form
     {
-        public Form1()
+        public SPI()
         {
             InitializeComponent();
         }
