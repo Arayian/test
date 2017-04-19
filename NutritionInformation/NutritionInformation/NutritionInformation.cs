@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SPI
+namespace NutritionInformation
 {
-    public partial class SPI : Form
+    public partial class NutritionInformation : Form
     {
-        public SPI()
+        public NutritionInformation()
         {
             InitializeComponent();
         }

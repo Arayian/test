@@ -1,6 +1,6 @@
-﻿namespace SPI
+﻿namespace NutritionInformation
 {
-    partial class SPI
+    partial class NutritionInformation
     {
         /// <summary>
         /// Required designer variable.
@@ -39,21 +39,30 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.gb_options = new System.Windows.Forms.GroupBox();
+            this.lbl_lowsodium = new System.Windows.Forms.Label();
+            this.lbl_gluten = new System.Windows.Forms.Label();
+            this.lbl_nitrate = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.lbl_gluten = new System.Windows.Forms.Label();
-            this.lbl_nitrate = new System.Windows.Forms.Label();
-            this.lbl_lowsodium = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.gb_brand.SuspendLayout();
             this.gb_options.SuspendLayout();
             this.SuspendLayout();
             // 
             // gb_brand
             // 
+            this.gb_brand.Controls.Add(this.textBox3);
+            this.gb_brand.Controls.Add(this.textBox2);
+            this.gb_brand.Controls.Add(this.textBox1);
             this.gb_brand.Controls.Add(this.lbl_flavor);
             this.gb_brand.Controls.Add(this.lbl_product);
             this.gb_brand.Controls.Add(this.lbl_brand);
@@ -66,7 +75,7 @@
             // lbl_flavor
             // 
             this.lbl_flavor.AutoSize = true;
-            this.lbl_flavor.Location = new System.Drawing.Point(7, 64);
+            this.lbl_flavor.Location = new System.Drawing.Point(7, 69);
             this.lbl_flavor.Name = "lbl_flavor";
             this.lbl_flavor.Size = new System.Drawing.Size(47, 17);
             this.lbl_flavor.TabIndex = 2;
@@ -75,7 +84,7 @@
             // lbl_product
             // 
             this.lbl_product.AutoSize = true;
-            this.lbl_product.Location = new System.Drawing.Point(7, 43);
+            this.lbl_product.Location = new System.Drawing.Point(7, 44);
             this.lbl_product.Name = "lbl_product";
             this.lbl_product.Size = new System.Drawing.Size(57, 17);
             this.lbl_product.TabIndex = 1;
@@ -84,7 +93,7 @@
             // lbl_brand
             // 
             this.lbl_brand.AutoSize = true;
-            this.lbl_brand.Location = new System.Drawing.Point(7, 22);
+            this.lbl_brand.Location = new System.Drawing.Point(7, 19);
             this.lbl_brand.Name = "lbl_brand";
             this.lbl_brand.Size = new System.Drawing.Size(46, 17);
             this.lbl_brand.TabIndex = 0;
@@ -146,6 +155,9 @@
             // 
             // gb_options
             // 
+            this.gb_options.Controls.Add(this.checkBox3);
+            this.gb_options.Controls.Add(this.checkBox2);
+            this.gb_options.Controls.Add(this.checkBox1);
             this.gb_options.Controls.Add(this.lbl_lowsodium);
             this.gb_options.Controls.Add(this.lbl_gluten);
             this.gb_options.Controls.Add(this.lbl_nitrate);
@@ -154,6 +166,33 @@
             this.gb_options.Size = new System.Drawing.Size(200, 100);
             this.gb_options.TabIndex = 7;
             this.gb_options.TabStop = false;
+            // 
+            // lbl_lowsodium
+            // 
+            this.lbl_lowsodium.AutoSize = true;
+            this.lbl_lowsodium.Location = new System.Drawing.Point(6, 71);
+            this.lbl_lowsodium.Name = "lbl_lowsodium";
+            this.lbl_lowsodium.Size = new System.Drawing.Size(84, 17);
+            this.lbl_lowsodium.TabIndex = 2;
+            this.lbl_lowsodium.Text = "Low Sodium";
+            // 
+            // lbl_gluten
+            // 
+            this.lbl_gluten.AutoSize = true;
+            this.lbl_gluten.Location = new System.Drawing.Point(6, 19);
+            this.lbl_gluten.Name = "lbl_gluten";
+            this.lbl_gluten.Size = new System.Drawing.Size(83, 17);
+            this.lbl_gluten.TabIndex = 0;
+            this.lbl_gluten.Text = "Gluten Free";
+            // 
+            // lbl_nitrate
+            // 
+            this.lbl_nitrate.AutoSize = true;
+            this.lbl_nitrate.Location = new System.Drawing.Point(6, 44);
+            this.lbl_nitrate.Name = "lbl_nitrate";
+            this.lbl_nitrate.Size = new System.Drawing.Size(83, 17);
+            this.lbl_nitrate.TabIndex = 1;
+            this.lbl_nitrate.Text = "Nitrate Free";
             // 
             // label7
             // 
@@ -209,34 +248,55 @@
             this.label12.TabIndex = 6;
             this.label12.Text = "label6";
             // 
-            // lbl_gluten
+            // checkBox1
             // 
-            this.lbl_gluten.AutoSize = true;
-            this.lbl_gluten.Location = new System.Drawing.Point(6, 22);
-            this.lbl_gluten.Name = "lbl_gluten";
-            this.lbl_gluten.Size = new System.Drawing.Size(83, 17);
-            this.lbl_gluten.TabIndex = 0;
-            this.lbl_gluten.Text = "Gluten Free";
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(96, 19);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // lbl_nitrate
+            // checkBox2
             // 
-            this.lbl_nitrate.AutoSize = true;
-            this.lbl_nitrate.Location = new System.Drawing.Point(6, 43);
-            this.lbl_nitrate.Name = "lbl_nitrate";
-            this.lbl_nitrate.Size = new System.Drawing.Size(83, 17);
-            this.lbl_nitrate.TabIndex = 1;
-            this.lbl_nitrate.Text = "Nitrate Free";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(96, 44);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.TabIndex = 3;
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // lbl_lowsodium
+            // checkBox3
             // 
-            this.lbl_lowsodium.AutoSize = true;
-            this.lbl_lowsodium.Location = new System.Drawing.Point(6, 64);
-            this.lbl_lowsodium.Name = "lbl_lowsodium";
-            this.lbl_lowsodium.Size = new System.Drawing.Size(84, 17);
-            this.lbl_lowsodium.TabIndex = 2;
-            this.lbl_lowsodium.Text = "Low Sodium";
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(96, 71);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.TabIndex = 3;
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // SPI
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(64, 16);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 3;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(64, 41);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 4;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(64, 68);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.TabIndex = 5;
+            // 
+            // NutritionInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -255,7 +315,7 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gb_brand);
-            this.Name = "SPI";
+            this.Name = "NutritionInformation";
             this.Text = "Form1";
             this.gb_brand.ResumeLayout(false);
             this.gb_brand.PerformLayout();
@@ -288,6 +348,12 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

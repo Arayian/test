@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SPI.Properties
+namespace NutritionInformation.Properties
 {
 
 
